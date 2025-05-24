@@ -1,0 +1,57 @@
+.video-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.video-card-light {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+}
+.video-card-dark {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+}
+.video-card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.video-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 10px;
+  gap: 10px;
+  padding: 10px;
+}
+.channel-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.video-card-text {
+  display: flex;
+  flex-direction: column;
+}
+.light-title {
+  font-size: 12px;
+  color: white;
+}
+.dark-title {
+  font-size: 12px;
+  color: black;
+}
+.video-name {
+  font-size: 10px;
+  color: #94a3b8;
+}
+.views-published {
+  font-size: 10px;
+  color: #94a3b8;
+}

@@ -1,0 +1,77 @@
+.light-sidebar {
+  background-color: white;
+  min-height: 100vh;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.dark-sidebar {
+  background-color: #212121;
+  min-height: 100vh;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sidebar-menu {
+  list-style-type: none;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 120px;
+  height: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.icons-text {
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+}
+.dark-text {
+  color: #212121;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+}
+.light-text {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.light-head {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.dark-head {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+.icons-link {
+  display: flex;
+  gap: 10px;
+}
+.light-paragraph {
+  color: white;
+  font-size: 13px;
+  padding-right: 15px;
+}
+.dark-paragraph {
+  color: black;
+  font-size: 13px;
+  padding-right: 15px;
+}

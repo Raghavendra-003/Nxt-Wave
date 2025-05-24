@@ -1,0 +1,45 @@
+.not-found-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-height: 100vh;
+}
+.light-not-found {
+  background-color: white;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dark-not-found {
+  background-color: black;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.not-found {
+  width: 300px;
+}
+.light-found {
+  font-size: 25px;
+  color: white;
+}
+.dark-found {
+  font-size: 25px;
+  color: black;
+}
+.light-para {
+  font-size: 17px;
+  color: white;
+}
+.dark-para {
+  font-size: 17px;
+  color: black;
+}

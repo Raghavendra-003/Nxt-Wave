@@ -1,0 +1,114 @@
+.saved-main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.saved-content-dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.saved-content-light {
+  background-color: #f9f9f9;
+  color: #000000;
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+.saved-heading-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  background-color: #d7dfe9;
+}
+.dark-heading-bg {
+  background-color: #0f0f0f;
+}
+
+.light-heading-bg {
+  background-color: #ebebeb;
+}
+
+.saved-icon {
+  color: #ff0b37;
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.saved-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Video List */
+.saved-videos-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.saved-video-link {
+  text-decoration: none;
+}
+
+.saved-video-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.saved-thumbnail {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+
+.saved-video-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.saved-channel {
+  font-size: 14px;
+  color: #7e858e;
+  margin-top: 4px;
+}
+
+/* No Saved Videos View */
+.no-saved-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.no-saved-img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.no-saved-description {
+  font-size: 16px;
+  color: #7e858e;
+}
+
+/* Titles */
+.light-title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.dark-title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}

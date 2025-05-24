@@ -1,0 +1,97 @@
+.home-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home-content-dark {
+  background-color: #181818;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.home-content-light {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  color: #000000;
+}
+
+.search-bar-container {
+  display: flex;
+  gap: 0px;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.search-input {
+  width: 330px;
+  height: 30px;
+}
+.search-icon-btn {
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 40px;
+}
+
+.faillure-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+.light-failure-head {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.dark-failure-head {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+.failure-paragraph {
+  font-size: 15px;
+  color: #64748b;
+  text-align: center;
+}
+.Retry-btn {
+  background-color: #4f46e5;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  height: 35px;
+  width: 70px;
+}
+.noSearch-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.videos-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

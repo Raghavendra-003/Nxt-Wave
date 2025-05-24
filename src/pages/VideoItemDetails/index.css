@@ -1,0 +1,139 @@
+.video-details-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faillure-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+.light-failure-head {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.dark-failure-head {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+.failure-paragraph {
+  font-size: 15px;
+  color: #64748b;
+  text-align: center;
+}
+.Retry-btn {
+  background-color: #4f46e5;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  height: 35px;
+  width: 70px;
+}
+.video-details-dark-container {
+  background-color: #0f0f0f;
+  min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.video-details-light-container {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.light-title {
+  color: white;
+  font-size: 14px;
+}
+.dark-title {
+  color: black;
+  font-size: 14px;
+}
+.views-likes-save {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.light-views {
+  color: white;
+  font-size: 12px;
+}
+.dark-views {
+  color: black;
+  font-size: 12px;
+}
+.likes-saves {
+  display: flex;
+  gap: 12px;
+}
+.light-buttons {
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  border: none;
+}
+.dark-buttons {
+  background-color: transparent;
+  color: black;
+  font-size: 12px;
+  border: none;
+}
+.active-button {
+  color: #2563eb;
+  font-weight: 600;
+}
+.in-active-button {
+  color: #64748b;
+}
+.channel-info {
+  display: flex;
+  gap: 10px;
+  border-top: 2px solid #94a3b8;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+.channel-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.light-description {
+  color: white;
+  font-size: 14px;
+}
+.dark-description {
+  color: black;
+  font-size: 14px;
+}
+.light-subscribe {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.dark-subscribe {
+  color: black;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
