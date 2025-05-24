@@ -115,7 +115,11 @@ class Login extends Component {
                       Show Password
                     </label>
                   </div>
-                  <button type="submit" className="login-button">
+                  <button
+                    type="submit"
+                    style={{color: '#ffffff'}}
+                    className="login-button"
+                  >
                     Login
                   </button>
                   {isShowError && <p className="error-msg">*{errorMsg}</p>}

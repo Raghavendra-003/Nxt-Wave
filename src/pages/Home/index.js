@@ -129,7 +129,7 @@ class Home extends Component {
     const {apiStatus} = this.state
     switch (apiStatus) {
       case apiStatusConstants.inProgress:
-        return this.renderLoadingView(isDarkTheme)
+        return this.renderLoadingView()
       case apiStatusConstants.success:
         return this.renderVideoList(isDarkTheme)
       case apiStatusConstants.failure:

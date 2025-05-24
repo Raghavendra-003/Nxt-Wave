@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 import Header from '../../components/Header'
 import Sidebar from '../../components/Sidebar'
 import ThemeContext from '../../context/ThemeContext'
-import VideoCard from '../../components/VideoCard'
+
 import './index.css'
 
 const apiStatusConstants = {
@@ -99,7 +99,7 @@ class Trending extends Component {
             className="trending-link-item"
             key={video.id}
           >
-            <li className="trending-video-item">
+            <li className="trending-video-item" key={video.id}>
               <img
                 src={video.thumbnailUrl}
                 alt="video thumbnail"
@@ -156,8 +156,8 @@ class Trending extends Component {
                     <h1
                       className={
                         isDarkTheme
-                          ? 'trend-heading-light'
-                          : 'trend-heading-dark'
+                          ? 'trend-heading-dark'
+                          : 'trend-heading-light'
                       }
                     >
                       Trending

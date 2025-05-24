@@ -1,8 +1,8 @@
 import {IoMdClose} from 'react-icons/io'
 import './index.css'
 
-const PremiumBanner = ({onClickCloseBtn, ...props}) => (
-  <div className="banner-container" data-testid={props['data-testid']}>
+const PremiumBanner = ({onClickCloseBtn, dataTestId}) => (
+  <div className="banner-container" data-testid={dataTestId}>
     <div className="banner-text">
       <img
         src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
